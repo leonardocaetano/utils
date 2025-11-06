@@ -8,7 +8,7 @@ setxkbmap -option ctrl:nocaps
 setxkbmap -model thinkpad60 -layout br
 
 # monitor setup stuff
-# xrandr --output DP-0 --mode 2560x1440 --rate 165
+xrandr --output eDP --mode 1920x1200 --rate 60 --set TearFree on
 # you can use the xrandr command to get video output information
 
 # Xresources stuff
