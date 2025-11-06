@@ -17,7 +17,7 @@ order += "memory"
 order += "tztime local"
 
 battery all {
-        format = "Battery: %percentage"
+        format = "Battery: %percentage %status"
 }
 
 disk "/" {
